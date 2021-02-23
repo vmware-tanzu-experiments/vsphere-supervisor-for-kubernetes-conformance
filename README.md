@@ -153,7 +153,7 @@ and architecture of ESXi and how that impacts our ability to pass conformance.
 [This document](known-test-failures.md) 
 is a more concise summary of which tests we fail and why.
 
-We run the Kubenretes conformance tests as part of our Supervisor build pipeline and 
+We run the Kubernetes conformance tests as part of our Supervisor build pipeline and 
 will upload raw results to this repository for every release in the same format as 
 the [CNCF conformance GitHub](https://github.com/cncf/k8s-conformance/blob/master/README.md).
 

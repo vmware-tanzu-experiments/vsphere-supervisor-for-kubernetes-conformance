@@ -12,6 +12,13 @@ what alternative approaches we recommend.
 Note that all of these test failures are due to the inherent elevated
 security architecture of vSphere and ESXi, not a fault with the product.
 
+## Index
+
+- [Host namespace access is not possible](#host-namespace-access-is-not-possible)
+- [HostPath Volumes are limited in scope](#hostpath-volumes-are-limited-in-scope)
+- [Only CSI-based PersistentVolumes are supported](#only-csi-based-persistentvolumes-are-supported)
+- [NodePort Services are not supported](#nodeport-services-are-not-supported)
+
 ## Host namespace access is not possible
 
 ### What's the issue?

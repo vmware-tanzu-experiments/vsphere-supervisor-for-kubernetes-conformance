@@ -115,7 +115,7 @@ The sweet spot for vSphere Pods are:
 
 As well as understanding the functional benefits, it's equally important to
 understand the limitations.
-The biggest different between vSphere Pods and other strongly-isolated
+The biggest difference between vSphere Pods and other strongly-isolated
 pod implementations is that ESXi is the node, not Linux.
 
 While Kubernetes has well-defined APIs and extension mechanisms, the ABI of

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Kubernetes e2e suite" tests="270" failures="0" errors="0" time="14766.785">
+<testcase name="[sig-apps] StatefulSet [k8s.io] Basic StatefulSet functionality [StatefulSetBasic] Should recreate evicted statefulset [Conformance]" classname="Kubernetes e2e suite" time="0">
+<skipped/>
+</testcase>
+<testcase name="[k8s.io] KubeletManagedEtcHosts should test kubelet managed /etc/hosts file [LinuxOnly] [NodeConformance] [Conformance]" classname="Kubernetes e2e suite" time="0">
+<skipped/>
+</testcase>
+<testcase name="[sig-network] Networking Granular Checks: Pods should function for node-pod communication: http [LinuxOnly] [NodeConformance] [Conformance]" classname="Kubernetes e2e suite" time="0">
+<skipped/>
+</testcase>
+<testcase name="[sig-network] Networking Granular Checks: Pods should function for node-pod communication: udp [LinuxOnly] [NodeConformance] [Conformance]" classname="Kubernetes e2e suite" time="0">
+<skipped/>
+</testcase>
+<testcase name="[sig-storage] HostPath should give a volume the correct mode [LinuxOnly] [NodeConformance] [Conformance]" classname="Kubernetes e2e suite" time="0">
+<skipped/>
+</testcase>
+<testcase name="[sig-network] Services should be able to change the type from ExternalName to NodePort [Conformance]" classname="Kubernetes e2e suite" time="0">
+<skipped/>
+</testcase>
+<testcase name="[sig-network] Services should be able to create a functioning NodePort service [Conformance]" classname="Kubernetes e2e suite" time="0">
+<skipped/>
+</testcase>
+</testsuite>

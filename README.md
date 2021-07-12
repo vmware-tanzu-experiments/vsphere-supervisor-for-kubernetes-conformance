@@ -146,7 +146,7 @@ upstream Kubernetes. This only applies to Supervisor running vSphere Pods.
 
 ## Links
 
-[This blog post](https://tanzu.vmware.com/blog) 
+[This blog post](https://core.vmware.com/blog/tanzu-secure-by-design) 
 goes into a lot of detail on the security-oriented design
 and architecture of ESXi and how that impacts our ability to pass conformance.
 

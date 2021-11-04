@@ -1,0 +1,15 @@
+<testcase name="[k8s.io] KubeletManagedEtcHosts should test kubelet managed /etc/hosts file [LinuxOnly] [NodeConformance] [Conformance]" classname="Kubernetes e2e suite" time="0">
+<testcase name="[sig-network] Services should have session affinity timeout work for NodePort service [LinuxOnly] [Conformance]" classname="Kubernetes e2e suite" time="0">
+<testcase name="[sig-scheduling] SchedulerPreemption [Serial] validates basic preemption works [Conformance]" classname="Kubernetes e2e suite" time="0">
+<testcase name="[sig-scheduling] SchedulerPredicates [Serial] validates that there is no conflict between pods with same hostPort but different hostIP and protocol [Conformance]" classname="Kubernetes e2e suite" time="0">
+<testcase name="[sig-network] Services should be able to change the type from NodePort to ExternalName [Conformance]" classname="Kubernetes e2e suite" time="0">
+<testcase name="[sig-scheduling] SchedulerPreemption [Serial] PreemptionExecutionPath runs ReplicaSets to verify preemption running path [Conformance]" classname="Kubernetes e2e suite" time="0">
+<testcase name="[sig-network] Networking Granular Checks: Pods should function for node-pod communication: http [LinuxOnly] [NodeConformance] [Conformance]" classname="Kubernetes e2e suite" time="0">
+<testcase name="[sig-network] Services should have session affinity work for NodePort service [LinuxOnly] [Conformance]" classname="Kubernetes e2e suite" time="0">
+<testcase name="[sig-network] Services should be able to switch session affinity for NodePort service [LinuxOnly] [Conformance]" classname="Kubernetes e2e suite" time="0">
+<testcase name="[sig-network] Services should be able to change the type from ExternalName to NodePort [Conformance]" classname="Kubernetes e2e suite" time="0">
+<testcase name="[sig-scheduling] SchedulerPreemption [Serial] validates lower priority pod preemption by critical pod [Conformance]" classname="Kubernetes e2e suite" time="0">
+<testcase name="[sig-network] Networking Granular Checks: Pods should function for node-pod communication: udp [LinuxOnly] [NodeConformance] [Conformance]" classname="Kubernetes e2e suite" time="0">
+<testcase name="[sig-network] Services should be able to create a functioning NodePort service [Conformance]" classname="Kubernetes e2e suite" time="0">
+<testcase name="[sig-apps] StatefulSet [k8s.io] Basic StatefulSet functionality [StatefulSetBasic] Should recreate evicted statefulset [Conformance]" classname="Kubernetes e2e suite" time="0">
+<testcase name="[sig-network] Services should have session affinity timeout work for service with type clusterIP [LinuxOnly] [Conformance]" classname="Kubernetes e2e suite" time="0">

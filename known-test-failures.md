@@ -18,6 +18,7 @@ security architecture of vSphere and ESXi, not a fault with the product.
 - [HostPath Volumes are limited in scope](#hostpath-volumes-are-limited-in-scope)
 - [Only CSI-based PersistentVolumes are supported](#only-csi-based-persistentvolumes-are-supported)
 - [NodePort Services are not supported](#nodeport-services-are-not-supported)
+- [SchedulerPreemption is not supported](#scheduler-preemption-is-not-supported)
 
 ## Host namespace access is not possible
 
@@ -171,3 +172,20 @@ inside of the cluster.
 You can also deploy an [Ingress Controller](
 https://kubernetes.io/docs/concepts/services-networking/ingress-controllers/)
 and use layer 7 load balancing instead if you're looking to load-balance HTTP traffic.
+
+## SchedulerPreemption is not supported
+
+### What's the issue?
+
+Supervisor cluster does not support Preemption based on PriorityClass during
+vSphere Pod scheduling.
+
+### What's the impact?
+
+Preemption of lower-priority pods when higher-priority pods fail to schedule,
+is not supported on the Supervisor Cluster.
+
+### Are there workarounds?
+
+Manually evicting lower-priority pods, to ensure there are enough resources for
+higher priority pods.
